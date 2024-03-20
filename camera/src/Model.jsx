@@ -16,9 +16,7 @@ function Model() {
 
   useLayoutEffect(() => {
     tl.current = gsap.timeline()
-    tl.current.to(ref.current.rotation, { duration: 2, y: -4 })
-    tl.current.to(ref.current.position, { y: -4 })
-    tl.current.to(ref.current.position, { y: 0 })
+    tl.current.to(ref.current.rotation, { duration: 1, y: -4 })
   })
   return (
     <>
