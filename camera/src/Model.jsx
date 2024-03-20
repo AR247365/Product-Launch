@@ -24,7 +24,8 @@ function Model() {
         ref={ref}
         object={camera.scene}
         scale={2}
-        rotation={[0, 2, 0]}
+        rotation={[-0.3, 2.1, 0]}
+        position={[1.5, 0, 0]}
       />
     </>
   )
