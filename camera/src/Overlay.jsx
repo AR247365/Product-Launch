@@ -45,7 +45,7 @@ export default function Overlay() {
         </section>
 
         {/* POWER SECTION */}
-        <section className="h-screen">
+        <section id="pow-sec" className="h-screen">
           <div className="flex flex-row">
             <div className="flex flex-col basis-5/12 ">
               <h1 className="text-7xl font-semibold text-red-700">Power</h1>
@@ -64,7 +64,7 @@ export default function Overlay() {
         </section>
 
         {/* SMART SECTION */}
-        <section className="h-screen">
+        <section id="smart-sec" className="h-screen">
           <div className="flex flex-col ">
             <div className="basis-1/3 flex flex-col ">
               <h1 className="text-7xl font-semibold m-auto ">
@@ -81,7 +81,7 @@ export default function Overlay() {
         </section>
 
         {/* GALLERY SECTION */}
-        <section className="h-screen">
+        <section id="gallery" className="h-screen">
           <div className="h-screen flex flex-row justify-evenly pb-16">
             <div className="basis-1/2"></div>
             <h1 className="text-7xl font-semibold  text-center mx-auto my-auto  ">
