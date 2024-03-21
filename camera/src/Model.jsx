@@ -18,10 +18,10 @@ function Model() {
       scrollTrigger: {
         trigger: "#perf-sec",
         start: "top bottom",
-        end: "top top",
+        end: "top center",
         scrub: true,
         immediateRender: false,
-        markers: true,
+        markers: false,
       },
     })
     tl.to(ref.current.rotation, {
@@ -34,7 +34,7 @@ function Model() {
         end: "top top",
         scrub: true,
         immediateRender: false,
-        markers: true,
+        markers: false,
       },
     })
 
@@ -49,7 +49,7 @@ function Model() {
         end: "top top",
         scrub: true,
         immediateRender: false,
-        markers: true,
+        markers: false,
       },
     })
     tl.to(ref.current.position, {
@@ -62,7 +62,7 @@ function Model() {
         end: "top top",
         scrub: true,
         immediateRender: false,
-        markers: true,
+        markers: false,
       },
     })
 
@@ -77,7 +77,7 @@ function Model() {
         end: "top top",
         scrub: true,
         immediateRender: false,
-        markers: true,
+        markers: false,
       },
     })
     tl.to(ref.current.rotation, {
@@ -90,7 +90,7 @@ function Model() {
         end: "top top",
         scrub: true,
         immediateRender: false,
-        markers: true,
+        markers: false,
       },
     })
 
@@ -105,7 +105,7 @@ function Model() {
         end: "top top",
         scrub: true,
         immediateRender: false,
-        markers: true,
+        markers: false,
       },
     })
     tl.to(ref.current.rotation, {
@@ -118,7 +118,7 @@ function Model() {
         end: "top top",
         scrub: true,
         immediateRender: false,
-        markers: true,
+        markers: false,
       },
     })
   }, [])
