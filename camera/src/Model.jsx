@@ -1,10 +1,11 @@
-import { useGLTF } from "@react-three/drei"
+import { PresentationControls, useGLTF } from "@react-three/drei"
 import { useRef, useLayoutEffect } from "react"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
 
-function Model() {
+function Model({ position, enablePresentationControls }) {
   const camera = useGLTF("./src/assets/camera.glb")
+
   const ref = useRef()
   const tl = gsap.timeline()
 
@@ -125,13 +126,23 @@ function Model() {
 
   return (
     <>
-      <primitive
-        ref={ref}
-        object={camera.scene}
-        scale={2}
-        position={[1.5, 0, 0]}
-        rotation={[-0.3, 2.1, 0]}
-      />
+      <PresentationControls
+        enabled={enablePresentationControls}
+        global={true}
+        config={{ mass: 2, tension: 400 }}
+        snap={{ mass: 4, tension: 400 }}
+        polar={[-Math.PI, Math.PI]}
+        azimuth={[-Math.PI, Math.PI]}
+        speed={2.3}
+      >
+        <primitive
+          ref={ref}
+          object={camera.scene}
+          scale={2}
+          position={[position.x, position.y, position.z]}
+          rotation={[-0.3, 2.1, 0]}
+        />
+      </PresentationControls>
     </>
   )
 }
