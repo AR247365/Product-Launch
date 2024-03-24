@@ -4,7 +4,7 @@ import gsap from "gsap"
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger"
 
 function Model({ position, enablePresentationControls }) {
-  const camera = useGLTF("./src/assets/camera.glb")
+  const camera = useGLTF("./camera.glb")
 
   const ref = useRef()
   const tl = gsap.timeline()

@@ -26,12 +26,7 @@ export default function Overlay({
         <section className="h-screen">
           <div className="flex flex-row">
             <div className="flex flex-col basis-5/12 ">
-              <img
-                src="./src/assets/logo.png"
-                alt="logo"
-                width="150vw"
-                height="auto"
-              />
+              <img src="./logo.png" alt="logo" width="150vw" height="auto" />
               <h1 className="text-9xl font-semibold ">Pro</h1>
               <p className="font-normal text-lg tracking-tighter pt-2 pl-2">
                 Discover our most advanced camera and lens series yet: blazing
@@ -77,7 +72,7 @@ export default function Overlay({
             </div>
             <div className="basis-5/12"></div>
             <div className="basis-2/12">
-              <img src="./src/assets/features.png" alt="features" />
+              <img src=".features.png" alt="features" />
             </div>
           </div>
         </section>

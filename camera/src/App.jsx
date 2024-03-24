@@ -32,7 +32,7 @@ export default function App() {
                 position: [0, 3, 6],
               }}
             >
-              <Environment files="./src/assets/environment.hdr" />
+              <Environment files="./environment.hdr" />
               <Model
                 position={modelPosition}
                 enablePresentationControls={enablePresentationControls}
