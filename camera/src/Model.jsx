@@ -13,13 +13,13 @@ function Model({ position, enablePresentationControls }) {
     new ScrollTrigger({})
     //FROM HERO TO PERFORMANCE
     tl.to(ref.current.position, {
-      x: -3.05,
-      y: 0,
+      x: -2.6,
+      y: 0.5,
       z: 0.5,
       scrollTrigger: {
         trigger: "#perf-sec",
         start: "top bottom",
-        end: "top center",
+        end: "top 20%",
         scrub: true,
         immediateRender: false,
         markers: false,
@@ -32,7 +32,7 @@ function Model({ position, enablePresentationControls }) {
       scrollTrigger: {
         trigger: "#perf-sec",
         start: "top bottom",
-        end: "top top",
+        end: "top center",
         scrub: true,
         immediateRender: false,
         markers: false,
@@ -70,7 +70,7 @@ function Model({ position, enablePresentationControls }) {
     //FROM POWER TO SMART
     tl.to(ref.current.position, {
       x: -0.65,
-      y: -3,
+      y: -2,
       z: -2.15,
       scrollTrigger: {
         trigger: "#smart-sec",

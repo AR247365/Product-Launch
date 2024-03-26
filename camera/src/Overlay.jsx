@@ -72,7 +72,7 @@ export default function Overlay({
             </div>
             <div className="basis-5/12"></div>
             <div className="basis-2/12">
-              <img src=".features.png" alt="features" />
+              <img src="./features.png" alt="features" />
             </div>
           </div>
         </section>

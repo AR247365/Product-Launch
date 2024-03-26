@@ -25,6 +25,7 @@ export default function App() {
         <div className="h-screen w-full fixed top-0 z-10 ">
           <Suspense fallback={<Loader />}>
             <Canvas
+              className="r3f"
               camera={{
                 fov: 45,
                 near: 0.1,
