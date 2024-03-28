@@ -28,7 +28,7 @@ export default function Overlay({
             <div className="flex flex-col basis-5/12 ">
               <img src="./logo.png" alt="logo" width="150vw" height="auto" />
               <h1 className="text-9xl font-semibold ">Pro</h1>
-              <p className="font-normal text-lg tracking-tighter pt-2 pl-2">
+              <p className="font-normal text-2xl tracking-tighter pt-2 pl-2">
                 Discover our most advanced camera and lens series yet: blazing
                 fast AF, incredible low light performance, superb image
                 stabilization, sharp image quality, and so much more
@@ -46,7 +46,7 @@ export default function Overlay({
               <h1 className="text-7xl font-semibold text-red-700">
                 Performance
               </h1>
-              <p className="font-normal text-lg tracking-tighter pt-7">
+              <p className="font-normal text-2xl tracking-tighter pt-7">
                 The EOS R10 is perfect for content creators looking to take
                 their creativity to the next level. Featuring a high-speed
                 shooting 15 FPS mechanical shutter1,2, a 24.2 Megapixel CMOS
@@ -63,7 +63,7 @@ export default function Overlay({
           <div className="flex flex-row">
             <div className="flex flex-col basis-5/12 ">
               <h1 className="text-7xl font-semibold text-red-700">Power</h1>
-              <p className="font-normal text-lg tracking-tighter ">
+              <p className="font-normal text-2xl tracking-tighter ">
                 The easy-to-carry EOS R10 packs advanced features into a
                 lightweight, compact design. Pair with a Canon RF-S/RF lens for
                 a high-performance setup that fits easily and comfortably in
@@ -84,7 +84,7 @@ export default function Overlay({
               <h1 className="text-7xl font-semibold m-auto ">
                 Smart <span className="text-red-700">autofocus</span>
               </h1>
-              <p className="font-normal text-lg tracking-tighter  m-auto text-center">
+              <p className="font-normal text-2xl tracking-tighter  m-auto text-center">
                 Canon's Dual Pixel CMOS AF technology with people, animal, and
                 vehicle subject detection lets you keep your eye on the action
                 while it keeps your subject in crystal clear focus.
